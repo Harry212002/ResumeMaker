@@ -56,20 +56,10 @@ A MERN stack application that allows users to create and download resumes in PDF
    cd makemyresumefrontend
    npm start
 
-## API Endpoints
+ 
 
-- **POST /api/auth/signup**: Register a new user.
-- **POST /api/auth/login**: Authenticate and log in a user.
-- **GET /api/user/**: Retrieve user details.
-- **POST /api/resume**: Create or update resume details.
-- **GET /api/resume/download**: Download the resume in PDF format.
 
-## Usage
 
-1. **Login/Register**: Sign up or log in to the application.
-2. **Choose Theme**: Select a resume theme from the available options.
-3. **Fill Details**: Enter your personal, educational, and professional information.
-4. **Download Resume**: Once all details are filled, download the resume in PDF format.
 
 
 
