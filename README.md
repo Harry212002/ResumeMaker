@@ -26,23 +26,33 @@ A MERN stack application that allows users to create and download resumes in PDF
    ```bash
    git clone https://github.com/Harry212002/ResumeMaker.git
    cd ResumeMaker
-2. **Install dependencies for the backend:**:
-     cd makemyresumebackend
-     npm install
-3. **Install dependencies for the frontend**:
-    cd makemyresumefrontend
-    npm install
-4.  **Environment Variables:**
-    Create a .env file in the backend directory and add the following
-    MONGO_URI=your_mongodb_connection_string
-    JWT_SECRET=your_jwt_secret
+2. **Navigate to the backend directory:**
+   ```sh
+   cd makemyresumebackendl
+   npm install
+
+3. **Navigate to the frontend directory:**
+   ```sh
+   cd makemyresumefrontend
+   npm install
+
+   
+4. **Environment Variables**
+
+ 1. **Create a `.env` file in the `makemyresumebackend` directory.**
+
+ 2. **Add the following environment variables to the `.env` file:**
+    
+     Replace `your_mongodb_connection_string` with your actual MongoDB connection string and `your_jwt_secret` with a secret key for JWT authentication.
 
 5. **Start the development server:**
    Backend:
+   ```sh
    cd makemyresumebackend
    npm run dev
    
-   Frontend:
+  Frontend:
+   ```sh
    cd makemyresumefrontend
    npm start
 
