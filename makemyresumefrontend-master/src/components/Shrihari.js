@@ -2,7 +2,7 @@ import React from "react";
 import PDF from "react-to-pdf";
 const ref = React.createRef();
 
-function Harsh() {
+function Shrihari() {
   return (
     <>
       <div ref={ref} style={{ color: "red", fontWeight: "bold" }}>

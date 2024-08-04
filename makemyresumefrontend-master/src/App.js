@@ -7,7 +7,7 @@ import Resume from "./components/Resume";
 import { Routes, Route } from "react-router-dom";
 import Login from "./components/Login";
 import Register from "./components/Register";
-import Harsh from "./components/Harsh";
+import Shrihari from "./components/Shrihari";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Route path="/resume" element={<Resume />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/register" element={<Register />}></Route>
-        <Route path="/pdf" element={<Harsh />}></Route>
+        <Route path="/pdf" element={<Shrihari />}></Route>
         <Route path="/" element={<Home />}></Route>
       </Routes>
     </>
